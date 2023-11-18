@@ -7,7 +7,7 @@
 const app = require('../app');
 const debug = require('debug')('idobata:server');
 const http = require('http');
-const socketRouter = require('../socketRouter');
+const socketRouter = require('../socket/socketRouter');
 
 /**
  * Get port from environment and store in Express.
